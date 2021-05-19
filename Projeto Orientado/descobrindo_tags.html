@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Descobrindo Tags</title>
+</head>
+<body>
+    <h1>Projeto Orientado</h1>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="leticia_barros.html">Letícia Barros</a> |
+        <a href="sabrina_da_silva.html">Sabrina Allexia Galvão da Silva</a> |
+        <a href="links_externos.html">Links Externos</a> |
+        <a href="tabela_de_curiosidades.html">Tabela de Curiosidades</a> |
+        <span>Descobrindo Tags</span>
+    </nav>
+
+    <h2>Descobrindo Tags</h2>
+
+    <p>Aqui estão as tags que pesquisamos neste trabalho. Usamos mais tags do que as que descrevemos para a disposição do conteúdo e apresentação das tags para nos atermos ao requisitado.</p>
+
+    <h3>&lt;nav&gt;&lt;/nav&gt;</h3>
+    <p>Esta é uma tag que faz a separação semântica de conteúdos/links de navegação entre páginas ou dentro dela mesma. Ela deve envolver as tag &lt;a&gt;&lt;/a&gt;, por exemplo. </p>
+
+    <h4>Exemplo de utilização:</h4>
+    
+    <pre>
+    &lt;nav&gt;
+        &lt;a href="index.html">Home&lt;/a&gt; |
+        &lt;a href="leticia_barros.html"&gt;Letícia Barros&lt;/a &gt; |
+        &lt;a href="sabrina_da_silva.html"&gt;Sabrina Allexia Galvão da Silva&lt;/a&gt; |
+        &lt;a href="links_externos.html"&gt;Links Externos&lt;/a &gt;|
+        &lt;a href="tabela_de_curiosidades.html"&gt;Tabela de Curiosidades&lt;/a &gt; |
+        &lt;a&gt;Descobrindo Tags&lt;/a&gt;
+    &lt;/nav&gt;
+    </pre>
+
+    <p>O resultado é como o apresentado na navegação das nossas páginas.</p>
+
+    <h3>&lt;footer&gt;&lt;/footer&gt;</h3>
+    <p>Acompanhando a lógica das tags head e body, a tag footer funciona como uma separação (semântica) para a página, como um rodapé. Geralmente tem conteúdos como autoria, data de publicação, direitos autorais e até alguns links de navegação.</p>
+
+    <h4>Exemplo de utilização:</h4>
+    
+    <pre>
+    &lt;footer&gt;
+        &lt;p&gt; Copyright © 2021 Letícia Barros e Sabrina da Silva&lt;/p&gt;
+    &lt;/footer&gt;
+    </pre>
+
+    <h3>&lt;input&gt;</h3>
+    <p>Produz uma área de texto editável para o usuário. Pode estar presente acompanhando outras tags, como o form de exemplo abaixo.</p>
+    <p>Possui também atributos vinculáveis a respeito de qual será o conteúdo de entrada esperado, tamanho e título.</p>
+
+    <h4>Exemplo de utilização:</h4>
+    <pre>
+        &lt;label&gt;Nome: &lt;input&gt;&lt;/label&gt;
+    </pre>
+
+    <h4>Resultado:</h4>
+    <label>Nome: <input></label>
+
+    <h3>&lt;form&gt;&lt;/form&gt;</h3>
+    <p>Esta tag apresenta um formulário interagível para o usuário, que pode conter diversas outras tag para espaços para textos, checkbox e botões por exemplo, que posteriormente podem ser enviados para o servidor.</p>
+
+    <h4>Exemplo de utilização:</h4>
+    <pre>
+    &lt;form&gt;
+        &lt;label&gt;Nome: &lt;input>&lt;/label&gt;
+        &lt;fieldset&gt;
+            &lt;legend&gt;Gênero&lt;/legend&gt;
+            &lt;label&gt; &lt;input type=radio name=genero&gt; Feminino &lt;/label&gt;
+            &lt;label&gt; &lt;input type=radio name=genero&gt; Masculino &lt;/label&gt;
+        &lt;/fieldset&gt;
+    &lt;/form&gt;
+    </pre>
+
+    <h4>Resultado:</h4>
+    <form>
+        <label>Nome: <input></label>
+        <fieldset>
+        <legend>Gênero</legend>
+        <label> <input type=radio name=genero> Feminino </label>
+        <label> <input type=radio name=genero> Masculino </label>
+        </fieldset>
+    </form>
+
+    <h3>Referências: </h3>
+    <ul>
+        <li><a href="https://www.w3.org/TR/html52" target="_blank">Documentação HTML 5.2 - W3C <a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">Mozilla Web Docs<a></li>
+    </ul>
+</body>
+</html>
